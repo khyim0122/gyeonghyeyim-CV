@@ -151,3 +151,8 @@ h1 span { color: var(--green); }
   .course-item { grid-template-columns: minmax(0, 1fr); gap: 8px; }
   .course-tag { grid-column: 1; }
 }
+
+/* Profile photograph: preserve original proportions at all screen widths. */
+.profile-art.profile-photo { display: block; height: auto; background: transparent; }
+.profile-art.profile-photo::before, .profile-art.profile-photo::after { content: none; }
+.profile-photo img { display: block; width: 100%; height: auto; }
