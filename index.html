@@ -1,101 +1,1311 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#f6f5f0">
-  <meta name="description" content="Academic homepage and curriculum vitae for Your Name.">
-  <title>Gyeonghye Yim | Academic Homepage</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
-  <script src="script.js" defer></script>
-</head>
-<body>
-  <a class="skip-link" href="#main">Skip to content</a>
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <meta content="#f6f5f0" name="theme-color"/>
+  <meta content="Academic homepage and curriculum vitae for Gyeonghye Yim." name="description"/>
+  <title>
+   Gyeonghye Yim | Academic Homepage
+  </title>
+  <link href="https://fonts.googleapis.com" rel="preconnect"/>
+  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Playfair+Display:wght@500;600;700&amp;display=swap" rel="stylesheet"/>
+  <link href="styles.css" rel="stylesheet"/>
+  <style>
+   .publication-switch{display:flex;flex-wrap:wrap;gap:.6rem;margin:1rem 0}.pub-filter{font:inherit;border:1px solid currentColor;border-radius:999px;background:transparent;color:inherit;padding:.65rem 1rem;cursor:pointer}.pub-filter.is-active{background:#263d35;color:white}.publication-item h4 a{color:inherit;text-decoration:none}.publication-item h4 a:hover{text-decoration:underline}.pub-legend{font-size:.8rem;opacity:.75}[hidden]{display:none!important}.tab-nav{flex-wrap:wrap}
+  </style>
+  <script defer="" src="script.js">
+  </script>
+ </head>
+ <body>
+  <a class="skip-link" href="#main">
+   Skip to content
+  </a>
   <header class="site-header">
-    <div class="header-inner">
-      <a class="wordmark" href="#home" aria-label="Your Name, home">Gyeonghye Yim<span>.</span></a>
-      <nav class="tab-nav" aria-label="Main navigation" role="tablist">
-        <button class="tab-button is-active" id="tab-news" role="tab" aria-selected="true" aria-controls="panel-news" tabindex="0" data-tab="news">News</button>
-        <button class="tab-button" id="tab-publications" role="tab" aria-selected="false" aria-controls="panel-publications" tabindex="-1" data-tab="publications">Publications</button>
-        <button class="tab-button" id="tab-teaching" role="tab" aria-selected="false" aria-controls="panel-teaching" tabindex="-1" data-tab="teaching">Teaching</button>
-        <button class="tab-button" id="tab-cv" role="tab" aria-selected="false" aria-controls="panel-cv" tabindex="-1" data-tab="cv">CV</button>
-      </nav>
-      <a class="contact-link" href="mailto:your.email@university.edu">Get in touch <span aria-hidden="true">↗</span></a>
-    </div>
+   <div class="header-inner">
+    <a aria-label="Gyeonghye Yim, home" class="wordmark" href="#home">
+     Gyeonghye Yim
+     <span>
+      .
+     </span>
+    </a>
+    <nav aria-label="Main navigation" class="tab-nav" role="tablist">
+     <button aria-controls="panel-news" aria-selected="true" class="tab-button is-active" data-tab="news" id="tab-news" role="tab" tabindex="0">
+      News
+     </button>
+     <button aria-controls="panel-publications" aria-selected="false" class="tab-button" data-tab="publications" id="tab-publications" role="tab" tabindex="-1">
+      Publications
+     </button>
+     <button aria-controls="panel-teaching" aria-selected="false" class="tab-button" data-tab="teaching" id="tab-teaching" role="tab" tabindex="-1">
+      Professional Experiences
+     </button>
+     <button aria-controls="panel-cv" aria-selected="false" class="tab-button" data-tab="cv" id="tab-cv" role="tab" tabindex="-1">
+      CV
+     </button>
+    </nav>
+    <a class="contact-link" href="mailto:khyim0122@kaist.ac.kr">
+     Get in touch
+     <span aria-hidden="true">
+      ↗
+     </span>
+    </a>
+   </div>
   </header>
-
   <main id="main">
-    <section class="hero" id="home" aria-labelledby="hero-title">
-      <div class="hero-copy">
-        <p class="eyebrow"><span class="status-dot"></span> Academic · Researcher · Educator</p>
-        <h1 id="hero-title">Hello, I’m <span>Your Name.</span></h1>
-        <p class="hero-summary">I'm a Ph.D. candidate in Bio and Brain Engineering at KAIST. My research explores <strong>how the chemistry and shape of materials can help them work with living systems.</strong></p>
-        <div class="hero-links">
-          <a class="text-link" href="mailto:khyim0122@kaist.ac.kr">khyim0122@kaist.ac.kr <span aria-hidden="true">↗</span></a>
-          <a class="text-link muted-link" href="https://scholar.google.com/citations?user=V82JtRQAAAAJ&hl=ko" target="_blank" rel="noreferrer">Google Scholar <span aria-hidden="true">↗</span></a>
+   <section aria-labelledby="hero-title" class="hero" id="home">
+    <div class="hero-copy">
+     <p class="eyebrow">
+      <span class="status-dot">
+      </span>
+      Academic · Researcher · Educator
+     </p>
+     <h1 id="hero-title">
+      Hello, I’m
+      <span>
+       Gyeonghye Yim.
+      </span>
+     </h1>
+     <p class="hero-summary">
+      I'm a Ph.D. candidate in Bio and Brain Engineering at KAIST. My research explores
+      <strong>
+       how the chemistry and shape of materials can help them work with living systems.
+      </strong>
+     </p>
+     <div class="hero-links">
+      <a class="text-link" href="mailto:khyim0122@kaist.ac.kr">
+       khyim0122@kaist.ac.kr
+       <span aria-hidden="true">
+        ↗
+       </span>
+      </a>
+      <a class="text-link muted-link" href="https://scholar.google.com/citations?user=V82JtRQAAAAJ&amp;hl=ko" rel="noreferrer" target="_blank">
+       Google Scholar
+       <span aria-hidden="true">
+        ↗
+       </span>
+      </a>
+     </div>
+    </div>
+    <aside aria-label="About me" class="profile-card">
+     <div aria-hidden="true" class="profile-art">
+      <span>
+       GY
+      </span>
+      <i>
+      </i>
+      <b>
+      </b>
+     </div>
+     <div class="profile-card-body">
+      <span class="card-label">
+       CURRENTLY
+      </span>
+      <p>
+       Ph.D. Candidate
+      </p>
+      <span class="card-label">
+       BASED AT
+      </span>
+      <p>
+       KAIST · Republic of Korea
+      </p>
+     </div>
+     <div class="card-index">
+      01 — PROFILE
+     </div>
+    </aside>
+    <div class="hero-bottom">
+     <span>
+      SCROLL TO EXPLORE
+     </span>
+     <span class="scroll-line">
+     </span>
+     <span class="hero-location">
+      Seoul, Republic of Korea
+      <span aria-hidden="true">
+       ·
+      </span>
+      <span id="current-year">
+      </span>
+     </span>
+    </div>
+   </section>
+   <section aria-label="Academic information" class="content-section">
+    <div class="section-heading">
+     <p class="eyebrow">
+      A LITTLE ABOUT MY WORK
+     </p>
+     <h2>
+      Ideas, research
+      <br/>
+      &amp; what’s next.
+     </h2>
+     <p class="section-intro">
+      A place to follow my recent work, find publications and professional experiences, and get a fuller picture of my academic path.
+     </p>
+    </div>
+    <div class="tab-panels">
+     <section aria-labelledby="tab-news" class="tab-panel is-visible" id="panel-news" role="tabpanel" tabindex="0">
+      <div class="panel-heading">
+       <div>
+        <p class="eyebrow">
+         LATEST UPDATES
+        </p>
+        <h3>
+         News
+        </h3>
+       </div>
+       <span class="panel-count">
+        01 / 04
+       </span>
+      </div>
+      <article class="news-item">
+       <time datetime="2026-05">
+        MAY 2026
+       </time>
+       <div>
+        <h4>
+         Awarded the Excellent Poster Presentation Prize
+        </h4>
+        <p>
+         The Korean Society of Medical &amp; Biological Engineering
+        </p>
+        <p>
+         “Thermal Drawing Process with in situ Nanoparticle Synthesis for Biological Reaction-Diffusion Mimetic Scaffold”
+        </p>
+       </div>
+      </article>
+      <article class="news-item">
+       <time datetime="2022-07">
+        JUL 2022
+       </time>
+       <div>
+        <h4>
+         Awarded the Excellent Oral Presentation Prize
+        </h4>
+        <p>
+         Division of Materials Chemistry, Korean Chemical Society
+        </p>
+        <p>
+         “Designing Surfactant-Free Nanoparticle Synthesis with Tunable Elemental Compositions and Their Applications”
+        </p>
+       </div>
+      </article>
+      <article class="news-item">
+       <time datetime="2022-04">
+        APR 2022
+       </time>
+       <div>
+        <h4>
+         Presented a research poster
+        </h4>
+        <p>
+         Korean Chemical Society
+        </p>
+        <p>
+         “Precursor Heterogeneity Combined Morphology Control of Mo-Te Nanostructures for Cancer Photo-Theranostics”
+        </p>
+       </div>
+      </article>
+      <article class="news-item">
+       <time datetime="2019-10">
+        OCT 2019
+       </time>
+       <div>
+        <h4>
+         Awarded the Excellent Poster Presentation Prize
+        </h4>
+        <p>
+         Korean Chemical Society
+        </p>
+        <p>
+         “Bi-Te Covered Nanorods: Facile Preparation with Heterogeneous Precursors and its Computer Tomography Guided Cancer Phototherapy”
+        </p>
+       </div>
+      </article>
+      <article class="news-item">
+       <time datetime="2019-03">
+        MAR 2019
+       </time>
+       <div>
+        <h4>
+         Featured in the Biological Research Information Center (BRIC)
+        </h4>
+        <p>
+         Biological Research Information Center (BRIC)
+        </p>
+        <p>
+         “Hydrothermal Galvanic-Replacement Tethered Synthesis of Ir-Ag-IrO2 Nanoplates for Computed Tomography-Guided Multi-Wavelength Potent Thermodynamic Cancer Therapy”
+        </p>
+       </div>
+      </article>
+     </section>
+     <section aria-labelledby="tab-publications" class="tab-panel" hidden="" id="panel-publications" role="tabpanel" tabindex="0">
+      <div class="panel-heading">
+       <div>
+        <p class="eyebrow">
+         RESEARCH OUTPUT
+        </p>
+        <h3>
+         Publications
+        </h3>
+       </div>
+       <span class="panel-count">
+        02 / 04
+       </span>
+      </div>
+      <div aria-label="Publication list" class="publication-switch" role="group">
+       <button aria-pressed="true" class="pub-filter is-active" data-pub="selected" type="button">
+        Selected Publications (8)
+       </button>
+       <button aria-pressed="false" class="pub-filter" data-pub="all" type="button">
+        All Publications (21)
+       </button>
+      </div>
+      <p class="pub-legend">
+       † Equal contribution · * Corresponding author
+      </p>
+      <div id="pub-selected">
+       <article class="publication-item">
+        <span class="pub-number">
+         01
+        </span>
+        <div>
+         <p class="pub-type">
+          JOURNAL ARTICLE · 2026
+         </p>
+         <h4>
+          <a href="https://doi.org/10.1021/acsnano.6c02201" rel="noopener noreferrer" target="_blank">
+           Nongenetic in Vivo Bimodal Neuromodulation via Photothermal Gold Nanorods and a Multifunctional Fiber Neural Probe
+          </a>
+         </h4>
+         <p class="pub-authors">
+          Chanwoong Yoon, Yunheum Lee,
+          <strong>
+           Gyeonghye Yim
+          </strong>
+          , Seung-Woo Lee, Wonryung Lee, Young-Gyun Park and Seongjun Park*
+         </p>
+         <p class="pub-venue">
+          ACS Nano 2026, 20(28), 20001-20015.
+         </p>
+         <div class="pub-links">
+          <a href="https://doi.org/10.1021/acsnano.6c02201" rel="noopener noreferrer" target="_blank">
+           DOI ↗
+          </a>
+         </div>
         </div>
-      </div>
-      <aside class="profile-card" aria-label="About me">
-        <div class="profile-art" aria-hidden="true"><span>YN</span><i></i><b></b></div>
-        <div class="profile-card-body">
-          <span class="card-label">CURRENTLY</span>
-          <p>[Position title]</p>
-          <span class="card-label">BASED AT</span>
-          <p>[University · City, Country]</p>
+       </article>
+       <article class="publication-item">
+        <span class="pub-number">
+         05
+        </span>
+        <div>
+         <p class="pub-type">
+          JOURNAL ARTICLE · 2023
+         </p>
+         <h4>
+          <a href="https://doi.org/10.1016/j.mtchem.2023.101644" rel="noopener noreferrer" target="_blank">
+           One-pot synthesis of Pt@TiO2 core-shell nanoparticles for stable hydrogen evolution reaction in acidic and alkaline media
+          </a>
+         </h4>
+         <p class="pub-authors">
+          Sanghyuk Cho†,
+          <strong>
+           Gyeonghye Yim
+          </strong>
+          †, Jueun Koh, Hongje Jang*, and Jung Tae Park*
+         </p>
+         <p class="pub-venue">
+          Mater. Today Chem. 2023, 32, 101644.
+         </p>
+         <div class="pub-links">
+          <a href="https://doi.org/10.1016/j.mtchem.2023.101644" rel="noopener noreferrer" target="_blank">
+           DOI ↗
+          </a>
+         </div>
         </div>
-        <div class="card-index">01 — PROFILE</div>
-      </aside>
-      <div class="hero-bottom"><span>SCROLL TO EXPLORE</span><span class="scroll-line"></span><span class="hero-location">[City, Country] <span aria-hidden="true">·</span> <span id="current-year"></span></span></div>
-    </section>
-
-    <section class="content-section" aria-label="Academic information">
-      <div class="section-heading">
-        <p class="eyebrow">A LITTLE ABOUT MY WORK</p>
-        <h2>Ideas, research<br> &amp; what’s next.</h2>
-        <p class="section-intro">A place to follow my recent work, find publications and course information, and get a fuller picture of my academic path.</p>
+       </article>
+       <article class="publication-item">
+        <span class="pub-number">
+         06
+        </span>
+        <div>
+         <p class="pub-type">
+          JOURNAL ARTICLE · 2023
+         </p>
+         <h4>
+          <a href="https://doi.org/10.3390/nano13111706" rel="noopener noreferrer" target="_blank">
+           Peroxidase-mimicking Ir-Te nanorods for photoconversion-combined multimodal cancer therapy
+          </a>
+         </h4>
+         <p class="pub-authors">
+          <strong>
+           Gyeonghye Yim
+          </strong>
+          †, Seounghun Kang†, Subean Kim†, and Hongje Jang*
+         </p>
+         <p class="pub-venue">
+          Nanomaterials 2023, 13(11), 1706.
+         </p>
+         <div class="pub-links">
+          <a href="https://doi.org/10.3390/nano13111706" rel="noopener noreferrer" target="_blank">
+           DOI ↗
+          </a>
+         </div>
+        </div>
+       </article>
+       <article class="publication-item">
+        <span class="pub-number">
+         11
+        </span>
+        <div>
+         <p class="pub-type">
+          JOURNAL ARTICLE · 2022
+         </p>
+         <h4>
+          <a href="https://doi.org/10.1021/acsami.1c20634" rel="noopener noreferrer" target="_blank">
+           Precursor heterogeneity driven Mo-Te nanoparticle structural diversification for cancer photo-theranostics
+          </a>
+         </h4>
+         <p class="pub-authors">
+          <strong>
+           Gyeonghye Yim
+          </strong>
+          †, Seounghun Kang†, Se-Youl Chae, Euisuk Chung, Tai-Kyong Song, Ji Hun Park*, Changhan Yoon*, Dal-Hee Min* and Hongje Jang*
+         </p>
+         <p class="pub-venue">
+          ACS Appl. Mater. Interfaces, 2022, 14(8), 9987-10000.
+         </p>
+         <div class="pub-links">
+          <a href="https://doi.org/10.1021/acsami.1c20634" rel="noopener noreferrer" target="_blank">
+           DOI ↗
+          </a>
+         </div>
+        </div>
+       </article>
+       <article class="publication-item">
+        <span class="pub-number">
+         12
+        </span>
+        <div>
+         <p class="pub-type">
+          JOURNAL ARTICLE · 2022
+         </p>
+         <h4>
+          <a href="https://doi.org/10.1016/j.enconman.2021.115038" rel="noopener noreferrer" target="_blank">
+           Surfactant-free one-pot synthesis of Au-TiO2 core-shell nanostars by inter-cation redox reaction for photoelectrochemical water splitting
+          </a>
+         </h4>
+         <p class="pub-authors">
+          Sanghyuk Cho†,
+          <strong>
+           Gyeonghye Yim
+          </strong>
+          †, Jung Tae Park* and Hongje Jang*
+         </p>
+         <p class="pub-venue">
+          Energy Convers. Manag. 2022, 252, 115038.
+         </p>
+         <div class="pub-links">
+          <a href="https://doi.org/10.1016/j.enconman.2021.115038" rel="noopener noreferrer" target="_blank">
+           DOI ↗
+          </a>
+         </div>
+        </div>
+       </article>
+       <article class="publication-item">
+        <span class="pub-number">
+         18
+        </span>
+        <div>
+         <p class="pub-type">
+          JOURNAL ARTICLE · 2020
+         </p>
+         <h4>
+          <a href="https://doi.org/10.1021/acsami.0c10981" rel="noopener noreferrer" target="_blank">
+           Intrinsic peroxidase-mimicking Ir nanoplates for nanozymatic anticancer and antibacterial treatment
+          </a>
+         </h4>
+         <p class="pub-authors">
+          <strong>
+           Gyeonghye Yim
+          </strong>
+          †, Chan Yeon Kim†, Seounghun Kang, Dal-Hee Min, Kyungtae Kang* and Hongje Jang*
+         </p>
+         <p class="pub-venue">
+          ACS Appl. Mater. Interfaces 2020, 12(37), 41062-41070.
+         </p>
+         <div class="pub-links">
+          <a href="https://doi.org/10.1021/acsami.0c10981" rel="noopener noreferrer" target="_blank">
+           DOI ↗
+          </a>
+         </div>
+        </div>
+       </article>
+       <article class="publication-item">
+        <span class="pub-number">
+         20
+        </span>
+        <div>
+         <p class="pub-type">
+          JOURNAL ARTICLE · 2020
+         </p>
+         <h4>
+          <a href="https://doi.org/10.1002/adfm.201907203" rel="noopener noreferrer" target="_blank">
+           Modus operandi of simultaneous covering synthesis from precursor heterogeneity for shelled nanorods for multi-potent cancer theranostics
+          </a>
+         </h4>
+         <p class="pub-authors">
+          <strong>
+           Gyeonghye Yim
+          </strong>
+          †, Seounghun Kang†, Hyungjun Kim, Young-Jin Kim, Yeong-Gyu Gil, Young-Kwan Kim*, Dal-Hee Min* and Hongje Jang*
+         </p>
+         <p class="pub-venue">
+          Adv. Funct. Mater. 2020, 30(9), 1907203.
+         </p>
+         <div class="pub-links">
+          <a href="https://doi.org/10.1002/adfm.201907203" rel="noopener noreferrer" target="_blank">
+           DOI ↗
+          </a>
+         </div>
+        </div>
+       </article>
+       <article class="publication-item">
+        <span class="pub-number">
+         21
+        </span>
+        <div>
+         <p class="pub-type">
+          JOURNAL ARTICLE · 2019
+         </p>
+         <h4>
+          <a href="https://doi.org/10.1021/acsnano.8b09516" rel="noopener noreferrer" target="_blank">
+           Hydrothermal galvanic-replacement tethered synthesis of Ir-Ag-IrO2 nanoplates for computed tomography-guided multi-wavelength potent thermodynamic cancer therapy
+          </a>
+         </h4>
+         <p class="pub-authors">
+          <strong>
+           Gyeonghye Yim
+          </strong>
+          †, Seounghun Kang†, Young-Jin Kim, Young-Kwan Kim, Dal-Hee Min* and Hongje Jang*
+         </p>
+         <p class="pub-venue">
+          ACS Nano 2019, 13(3), 3434-3447.
+         </p>
+         <div class="pub-links">
+          <a href="https://doi.org/10.1021/acsnano.8b09516" rel="noopener noreferrer" target="_blank">
+           DOI ↗
+          </a>
+         </div>
+        </div>
+       </article>
       </div>
-
-      <div class="tab-panels">
-        <section class="tab-panel is-visible" id="panel-news" role="tabpanel" aria-labelledby="tab-news" tabindex="0">
-          <div class="panel-heading"><div><p class="eyebrow">LATEST UPDATES</p><h3>News</h3></div><span class="panel-count">01 / 04</span></div>
-          <article class="news-item"><time datetime="2025-09">SEP 2025</time><div><h4>[Add a recent announcement]</h4><p>Share a new publication, award, talk, project, or other update here.</p></div><span class="item-arrow" aria-hidden="true">↗</span></article>
-          <article class="news-item"><time datetime="2025-05">MAY 2020</time><div><h4>[Add another update]</h4><p>A short sentence gives visitors the context and makes the news easy to scan.</p></div><span class="item-arrow" aria-hidden="true">↗</span></article>
-          <p class="edit-note">Replace these sample entries with your own updates.</p>
-        </section>
-
-        <section class="tab-panel" id="panel-publications" role="tabpanel" aria-labelledby="tab-publications" tabindex="0" hidden>
-          <div class="panel-heading"><div><p class="eyebrow">SELECTED WORK</p><h3>Publications</h3></div><span class="panel-count">02 / 04</span></div>
-          <article class="publication-item"><span class="pub-number">01</span><div><p class="pub-type">JOURNAL ARTICLE · [YEAR]</p><h4>[Title of your publication]</h4><p class="pub-authors">Your Name, Co-author Name</p><p class="pub-venue">[Journal or conference name], [volume/issue or pages]</p><div class="pub-links"><a href="#publications">Paper <span aria-hidden="true">↗</span></a><a href="#publications">DOI <span aria-hidden="true">↗</span></a></div></div></article>
-          <article class="publication-item"><span class="pub-number">02</span><div><p class="pub-type">CONFERENCE PAPER · [YEAR]</p><h4>[Title of another publication]</h4><p class="pub-authors">Your Name, Co-author Name</p><p class="pub-venue">[Conference or proceedings], [location]</p><div class="pub-links"><a href="#publications">Paper <span aria-hidden="true">↗</span></a><a href="#publications">Project <span aria-hidden="true">↗</span></a></div></div></article>
-          <p class="edit-note">Add your publications and replace the example links with working URLs.</p>
-        </section>
-
-        <section class="tab-panel" id="panel-teaching" role="tabpanel" aria-labelledby="tab-teaching" tabindex="0" hidden>
-          <div class="panel-heading"><div><p class="eyebrow">LEARNING TOGETHER</p><h3>Teaching</h3></div><span class="panel-count">03 / 04</span></div>
-          <p class="teaching-intro">I enjoy helping students build confidence as curious thinkers and thoughtful researchers. Here are some courses I have taught.</p>
-          <article class="course-item"><div class="course-term">FALL 2025</div><div><h4>[Course title]</h4><p>[Course code] · [University] · [Undergraduate / Graduate]</p></div><span class="course-tag">INSTRUCTOR</span></article>
-          <article class="course-item"><div class="course-term">SPRING 2025</div><div><h4>[Another course title]</h4><p>[Course code] · [University] · [Undergraduate / Graduate]</p></div><span class="course-tag">TEACHING ASSISTANT</span></article>
-          <p class="edit-note">Update course titles, terms, roles, and descriptions to reflect your experience.</p>
-        </section>
-
-        <section class="tab-panel" id="panel-cv" role="tabpanel" aria-labelledby="tab-cv" tabindex="0" hidden>
-          <div class="panel-heading"><div><p class="eyebrow">THE SHORT VERSION</p><h3>Curriculum vitae</h3></div><span class="panel-count">04 / 04</span></div>
-          <p class="cv-intro">My academic path so far—education, appointments, and selected honors. For a complete overview, add your CV PDF and link it below.</p>
-          <div class="cv-block"><p class="cv-year">2022 — NOW</p><div><h4>Ph.D. </h4><p>Bio and Brain Engineering, KAIST · [Daejeon, South Korea]</p></div></div>
-          <div class="cv-block"><p class="cv-year">2019 — 2021</p><div><h4>M.S. in Chemistry</h4><p>Kwangwoon University · Dissertation: “Synthesis of Core-Shell Nanorods with Heterogeneous Precursors and Their Applications in Cancer Therapy”</p></div></div>
-          <div class="cv-block"><p class="cv-year">2015 — 2019</p><div><h4> B.S. in Chemistry</h4><p>Kwangwoon University</p></div></div>
-          <a class="download-button" href="cv.pdf" download>Download full CV <span aria-hidden="true">↓</span></a>
-          <p class="edit-note">Add your own details and upload a file named <code>cv.pdf</code> to the repository root.</p>
-        </section>
+      <div hidden="" id="pub-all">
+       <article class="publication-item">
+        <span class="pub-number">
+         01
+        </span>
+        <div>
+         <p class="pub-type">
+          JOURNAL ARTICLE · 2026
+         </p>
+         <h4>
+          <a href="https://doi.org/10.1021/acsnano.6c02201" rel="noopener noreferrer" target="_blank">
+           Nongenetic in Vivo Bimodal Neuromodulation via Photothermal Gold Nanorods and a Multifunctional Fiber Neural Probe
+          </a>
+         </h4>
+         <p class="pub-authors">
+          Chanwoong Yoon, Yunheum Lee,
+          <strong>
+           Gyeonghye Yim
+          </strong>
+          , Seung-Woo Lee, Wonryung Lee, Young-Gyun Park and Seongjun Park*
+         </p>
+         <p class="pub-venue">
+          ACS Nano 2026, 20(28), 20001-20015.
+         </p>
+         <div class="pub-links">
+          <a href="https://doi.org/10.1021/acsnano.6c02201" rel="noopener noreferrer" target="_blank">
+           DOI ↗
+          </a>
+         </div>
+        </div>
+       </article>
+       <article class="publication-item">
+        <span class="pub-number">
+         02
+        </span>
+        <div>
+         <p class="pub-type">
+          JOURNAL ARTICLE · 2026
+         </p>
+         <h4>
+          <a href="https://doi.org/10.1016/j.desal.2026.120169" rel="noopener noreferrer" target="_blank">
+           Oxidation tolerant Bi-Te covered nanorods mediated efficient solar steam generation for desalination
+          </a>
+         </h4>
+         <p class="pub-authors">
+          Ju Yeon Kim, Youbin Heo,
+          <strong>
+           Gyeonghye Yim
+          </strong>
+          , Hongje Jang and Young-Kwan Kim
+         </p>
+         <p class="pub-venue">
+          Desalination 2026, 631, 120169.
+         </p>
+         <div class="pub-links">
+          <a href="https://doi.org/10.1016/j.desal.2026.120169" rel="noopener noreferrer" target="_blank">
+           DOI ↗
+          </a>
+         </div>
+        </div>
+       </article>
+       <article class="publication-item">
+        <span class="pub-number">
+         03
+        </span>
+        <div>
+         <p class="pub-type">
+          JOURNAL ARTICLE · 2025
+         </p>
+         <h4>
+          <a href="https://doi.org/10.1021/acsmaterialslett.4c02409" rel="noopener noreferrer" target="_blank">
+           Pt-MoOx hybrid electrocatalysts modulating local environment for enhanced activity toward hydrogen electrocatalysis
+          </a>
+         </h4>
+         <p class="pub-authors">
+          Jueun Koh, Soheel Kim,
+          <strong>
+           Gyeonghye Yim
+          </strong>
+          , Jihun Yu, Jaehwan Kim, Sang Hoon Joo*, Hongje Jang*, and Young Jin Sa*
+         </p>
+         <p class="pub-venue">
+          ACS Materials Lett. 2025, 7, 707-714.
+         </p>
+         <div class="pub-links">
+          <a href="https://doi.org/10.1021/acsmaterialslett.4c02409" rel="noopener noreferrer" target="_blank">
+           DOI ↗
+          </a>
+         </div>
+        </div>
+       </article>
+       <article class="publication-item">
+        <span class="pub-number">
+         04
+        </span>
+        <div>
+         <p class="pub-type">
+          JOURNAL ARTICLE · 2024
+         </p>
+         <h4>
+          <a href="https://doi.org/10.3390/nano14231946" rel="noopener noreferrer" target="_blank">
+           Laser desorption/ionization on Au@TiO2 core@shell nanostars for mass spectrometric analysis of small molecules
+          </a>
+         </h4>
+         <p class="pub-authors">
+          Hye-Sun Cho, Jueun Koh,
+          <strong>
+           Gyeonghye Yim
+          </strong>
+          , Hongje Jang*, and Young-Kwan Kim*
+         </p>
+         <p class="pub-venue">
+          Nanomaterials 2024, 14(23), 1946.
+         </p>
+         <div class="pub-links">
+          <a href="https://doi.org/10.3390/nano14231946" rel="noopener noreferrer" target="_blank">
+           DOI ↗
+          </a>
+         </div>
+        </div>
+       </article>
+       <article class="publication-item">
+        <span class="pub-number">
+         05
+        </span>
+        <div>
+         <p class="pub-type">
+          JOURNAL ARTICLE · 2023
+         </p>
+         <h4>
+          <a href="https://doi.org/10.1016/j.mtchem.2023.101644" rel="noopener noreferrer" target="_blank">
+           One-pot synthesis of Pt@TiO2 core-shell nanoparticles for stable hydrogen evolution reaction in acidic and alkaline media
+          </a>
+         </h4>
+         <p class="pub-authors">
+          Sanghyuk Cho†,
+          <strong>
+           Gyeonghye Yim
+          </strong>
+          †, Jueun Koh, Hongje Jang*, and Jung Tae Park*
+         </p>
+         <p class="pub-venue">
+          Mater. Today Chem. 2023, 32, 101644.
+         </p>
+         <div class="pub-links">
+          <a href="https://doi.org/10.1016/j.mtchem.2023.101644" rel="noopener noreferrer" target="_blank">
+           DOI ↗
+          </a>
+         </div>
+        </div>
+       </article>
+       <article class="publication-item">
+        <span class="pub-number">
+         06
+        </span>
+        <div>
+         <p class="pub-type">
+          JOURNAL ARTICLE · 2023
+         </p>
+         <h4>
+          <a href="https://doi.org/10.3390/nano13111706" rel="noopener noreferrer" target="_blank">
+           Peroxidase-mimicking Ir-Te nanorods for photoconversion-combined multimodal cancer therapy
+          </a>
+         </h4>
+         <p class="pub-authors">
+          <strong>
+           Gyeonghye Yim
+          </strong>
+          †, Seounghun Kang†, Subean Kim†, and Hongje Jang*
+         </p>
+         <p class="pub-venue">
+          Nanomaterials 2023, 13(11), 1706.
+         </p>
+         <div class="pub-links">
+          <a href="https://doi.org/10.3390/nano13111706" rel="noopener noreferrer" target="_blank">
+           DOI ↗
+          </a>
+         </div>
+        </div>
+       </article>
+       <article class="publication-item">
+        <span class="pub-number">
+         07
+        </span>
+        <div>
+         <p class="pub-type">
+          JOURNAL ARTICLE · 2022
+         </p>
+         <h4>
+          <a href="https://doi.org/10.1002/bkcs.12619" rel="noopener noreferrer" target="_blank">
+           Morphology- and composition-controlled silver-containing rhodium nanoparticles for the oxygen reduction reaction
+          </a>
+         </h4>
+         <p class="pub-authors">
+          Gyu Seop Hwang, Woojun Shin,
+          <strong>
+           Gyeonghye Yim
+          </strong>
+          , Jae Hyuk Choi, Young-Kwan Kim, Hongje Jang*, and Yang-Rae Kim*
+         </p>
+         <p class="pub-venue">
+          Bull. Kor. Chem. Soc. 2022, 43(11), 1240-1246.
+         </p>
+         <div class="pub-links">
+          <a href="https://doi.org/10.1002/bkcs.12619" rel="noopener noreferrer" target="_blank">
+           DOI ↗
+          </a>
+         </div>
+        </div>
+       </article>
+       <article class="publication-item">
+        <span class="pub-number">
+         08
+        </span>
+        <div>
+         <p class="pub-type">
+          JOURNAL ARTICLE · 2022
+         </p>
+         <h4>
+          <a href="https://doi.org/10.1021/acsami.2c07281" rel="noopener noreferrer" target="_blank">
+           Rhodium-tellurium nanorod synthesis using galvanic replacement-polyol regrowth for thermo-dynamic dual-modal cancer phototherapy
+          </a>
+         </h4>
+         <p class="pub-authors">
+          Seounghun Kang†,
+          <strong>
+           Gyeonghye Yim
+          </strong>
+          †, Se-Youl Chae, Subean Kim, Yeong-Gyu Gil, Young-Kwan Kim, Dal-Hee Min and Hongje Jang*
+         </p>
+         <p class="pub-venue">
+          ACS Appl. Mater. Interfaces, 2022, 14(36), 40513-40521.
+         </p>
+         <div class="pub-links">
+          <a href="https://doi.org/10.1021/acsami.2c07281" rel="noopener noreferrer" target="_blank">
+           DOI ↗
+          </a>
+         </div>
+        </div>
+       </article>
+       <article class="publication-item">
+        <span class="pub-number">
+         09
+        </span>
+        <div>
+         <p class="pub-type">
+          JOURNAL ARTICLE · 2022
+         </p>
+         <h4>
+          <a href="https://doi.org/10.1002/bkcs.12587" rel="noopener noreferrer" target="_blank">
+           Synthesis of binary metal-metal oxide core-shell nanoparticles via surfactant-free inter-cation redox reactions
+          </a>
+         </h4>
+         <p class="pub-authors">
+          <strong>
+           Gyeonghye Yim
+          </strong>
+          , Sanghyuk Cho, Jung Tae Park and Hongje Jang*
+         </p>
+         <p class="pub-venue">
+          Bull. Kor. Chem. Soc. 2022, 43(8), 1002-1006.
+         </p>
+         <div class="pub-links">
+          <a href="https://doi.org/10.1002/bkcs.12587" rel="noopener noreferrer" target="_blank">
+           DOI ↗
+          </a>
+         </div>
+        </div>
+       </article>
+       <article class="publication-item">
+        <span class="pub-number">
+         10
+        </span>
+        <div>
+         <p class="pub-type">
+          JOURNAL ARTICLE · 2022
+         </p>
+         <h4>
+          <a href="https://doi.org/10.1149/1945-7111/ac63f5" rel="noopener noreferrer" target="_blank">
+           Morphology-controlled silver-containing rhodium nanoparticles for hydrogen evolution reaction
+          </a>
+         </h4>
+         <p class="pub-authors">
+          Gyu Seop Hwang, Woo Jun Shin,
+          <strong>
+           Gyeonghye Yim
+          </strong>
+          , Jae Hyuk Choi, Young-Kwan Kim, Hongje Jang* and Yang-Rae Kim*
+         </p>
+         <p class="pub-venue">
+          J. Electrochem. Soc. 2022, 169(4), 044517.
+         </p>
+         <div class="pub-links">
+          <a href="https://doi.org/10.1149/1945-7111/ac63f5" rel="noopener noreferrer" target="_blank">
+           DOI ↗
+          </a>
+         </div>
+        </div>
+       </article>
+       <article class="publication-item">
+        <span class="pub-number">
+         11
+        </span>
+        <div>
+         <p class="pub-type">
+          JOURNAL ARTICLE · 2022
+         </p>
+         <h4>
+          <a href="https://doi.org/10.1021/acsami.1c20634" rel="noopener noreferrer" target="_blank">
+           Precursor heterogeneity driven Mo-Te nanoparticle structural diversification for cancer photo-theranostics
+          </a>
+         </h4>
+         <p class="pub-authors">
+          <strong>
+           Gyeonghye Yim
+          </strong>
+          †, Seounghun Kang†, Se-Youl Chae, Euisuk Chung, Tai-Kyong Song, Ji Hun Park*, Changhan Yoon*, Dal-Hee Min* and Hongje Jang*
+         </p>
+         <p class="pub-venue">
+          ACS Appl. Mater. Interfaces, 2022, 14(8), 9987-10000.
+         </p>
+         <div class="pub-links">
+          <a href="https://doi.org/10.1021/acsami.1c20634" rel="noopener noreferrer" target="_blank">
+           DOI ↗
+          </a>
+         </div>
+        </div>
+       </article>
+       <article class="publication-item">
+        <span class="pub-number">
+         12
+        </span>
+        <div>
+         <p class="pub-type">
+          JOURNAL ARTICLE · 2022
+         </p>
+         <h4>
+          <a href="https://doi.org/10.1016/j.enconman.2021.115038" rel="noopener noreferrer" target="_blank">
+           Surfactant-free one-pot synthesis of Au-TiO2 core-shell nanostars by inter-cation redox reaction for photoelectrochemical water splitting
+          </a>
+         </h4>
+         <p class="pub-authors">
+          Sanghyuk Cho†,
+          <strong>
+           Gyeonghye Yim
+          </strong>
+          †, Jung Tae Park* and Hongje Jang*
+         </p>
+         <p class="pub-venue">
+          Energy Convers. Manag. 2022, 252, 115038.
+         </p>
+         <div class="pub-links">
+          <a href="https://doi.org/10.1016/j.enconman.2021.115038" rel="noopener noreferrer" target="_blank">
+           DOI ↗
+          </a>
+         </div>
+        </div>
+       </article>
+       <article class="publication-item">
+        <span class="pub-number">
+         13
+        </span>
+        <div>
+         <p class="pub-type">
+          JOURNAL ARTICLE · 2022
+         </p>
+         <h4>
+          <a href="https://doi.org/10.1002/adtp.202100204" rel="noopener noreferrer" target="_blank">
+           Wavelength independent photo-chemo tri-modal combinatorial renal cell carcinoma therapy with biocompatible gold-titania nanostars
+          </a>
+         </h4>
+         <p class="pub-authors">
+          Seounghun Kang†,
+          <strong>
+           Gyeonghye Yim
+          </strong>
+          †, Dal-Hee Min* and Hongje Jang*
+         </p>
+         <p class="pub-venue">
+          Adv. Ther. 2022, 5(1), 2100204.
+         </p>
+         <div class="pub-links">
+          <a href="https://doi.org/10.1002/adtp.202100204" rel="noopener noreferrer" target="_blank">
+           DOI ↗
+          </a>
+         </div>
+        </div>
+       </article>
+       <article class="publication-item">
+        <span class="pub-number">
+         14
+        </span>
+        <div>
+         <p class="pub-type">
+          JOURNAL ARTICLE · 2021
+         </p>
+         <h4>
+          <a href="https://doi.org/10.1021/acsami.1c17727" rel="noopener noreferrer" target="_blank">
+           Unveiling cationic promotion effect of H2O2 electrosynthesis activity of O-doped carbons
+          </a>
+         </h4>
+         <p class="pub-authors">
+          Juyeon Lee, June Sung Lim,
+          <strong>
+           Gyeonghye Yim
+          </strong>
+          , Hongje Jang, Sang Hoon Joo* and Young Jin Sa*
+         </p>
+         <p class="pub-venue">
+          ACS Appl. Mater. Interfaces, 2021, 13(50), 59904-59914.
+         </p>
+         <div class="pub-links">
+          <a href="https://doi.org/10.1021/acsami.1c17727" rel="noopener noreferrer" target="_blank">
+           DOI ↗
+          </a>
+         </div>
+        </div>
+       </article>
+       <article class="publication-item">
+        <span class="pub-number">
+         15
+        </span>
+        <div>
+         <p class="pub-type">
+          JOURNAL ARTICLE · 2021
+         </p>
+         <h4>
+          <a href="https://doi.org/10.1021/acsami.1c14201" rel="noopener noreferrer" target="_blank">
+           Osmium-tellurium nanozymes for penta-modal combinatorial cancer therapy
+          </a>
+         </h4>
+         <p class="pub-authors">
+          Seounghun Kang†, Yeong-Gyu Gil†,
+          <strong>
+           Gyeonghye Yim
+          </strong>
+          , Dal-Hee Min* and Hongje Jang*
+         </p>
+         <p class="pub-venue">
+          ACS Appl. Mater. Interfaces 2021, 13, 44124-44135.
+         </p>
+         <div class="pub-links">
+          <a href="https://doi.org/10.1021/acsami.1c14201" rel="noopener noreferrer" target="_blank">
+           DOI ↗
+          </a>
+         </div>
+        </div>
+       </article>
+       <article class="publication-item">
+        <span class="pub-number">
+         16
+        </span>
+        <div>
+         <p class="pub-type">
+          JOURNAL ARTICLE · 2021
+         </p>
+         <h4>
+          <a href="https://doi.org/10.1007/s00216-021-03559-2" rel="noopener noreferrer" target="_blank">
+           Fabrication of a surface-enhanced Raman spectroscopy-based analytical method consisting of multifunctional DNA three-way junction-conjugated porous gold nanoparticles and Au-Te nanoworm for C-reactive protein detection
+          </a>
+         </h4>
+         <p class="pub-authors">
+          Soo Min Kim, Jinmyeong Kim,
+          <strong>
+           Gyeonghye Yim
+          </strong>
+          , Ho Jung Ahn, Myoungro Lee, Tae-Hyung Kim, Chulhwan Park, Junhong Min*, Hongje Jang* and Taek Lee*
+         </p>
+         <p class="pub-venue">
+          Anal. Bioanal. Chem. 2021, 34350496.
+         </p>
+         <div class="pub-links">
+          <a href="https://doi.org/10.1007/s00216-021-03559-2" rel="noopener noreferrer" target="_blank">
+           DOI ↗
+          </a>
+         </div>
+        </div>
+       </article>
+       <article class="publication-item">
+        <span class="pub-number">
+         17
+        </span>
+        <div>
+         <p class="pub-type">
+          JOURNAL ARTICLE · 2021
+         </p>
+         <h4>
+          <a href="https://doi.org/10.1039/d0an02135k" rel="noopener noreferrer" target="_blank">
+           Fabrication of an electrochemical biosensor compose of multi-functional Ag ion intercalated DNA four-way junctions/rhodium nanoplate heterolayer on a micro-gap for C-reactive protein detection in human serum
+          </a>
+         </h4>
+         <p class="pub-authors">
+          Jinmyeong Kim, Jeong-Ah Park,
+          <strong>
+           Gyeonghye Yim
+          </strong>
+          , Hongje Jang, Tae-Hyung Kim, Hiesang Sohn and Taek Lee*
+         </p>
+         <p class="pub-venue">
+          Analyst 2021, 146, 2131-2137.
+         </p>
+         <div class="pub-links">
+          <a href="https://doi.org/10.1039/d0an02135k" rel="noopener noreferrer" target="_blank">
+           DOI ↗
+          </a>
+         </div>
+        </div>
+       </article>
+       <article class="publication-item">
+        <span class="pub-number">
+         18
+        </span>
+        <div>
+         <p class="pub-type">
+          JOURNAL ARTICLE · 2020
+         </p>
+         <h4>
+          <a href="https://doi.org/10.1021/acsami.0c10981" rel="noopener noreferrer" target="_blank">
+           Intrinsic peroxidase-mimicking Ir nanoplates for nanozymatic anticancer and antibacterial treatment
+          </a>
+         </h4>
+         <p class="pub-authors">
+          <strong>
+           Gyeonghye Yim
+          </strong>
+          †, Chan Yeon Kim†, Seounghun Kang, Dal-Hee Min, Kyungtae Kang* and Hongje Jang*
+         </p>
+         <p class="pub-venue">
+          ACS Appl. Mater. Interfaces 2020, 12(37), 41062-41070.
+         </p>
+         <div class="pub-links">
+          <a href="https://doi.org/10.1021/acsami.0c10981" rel="noopener noreferrer" target="_blank">
+           DOI ↗
+          </a>
+         </div>
+        </div>
+       </article>
+       <article class="publication-item">
+        <span class="pub-number">
+         19
+        </span>
+        <div>
+         <p class="pub-type">
+          JOURNAL ARTICLE · 2020
+         </p>
+         <h4>
+          <a href="https://doi.org/10.1016/j.colsurfb.2020.111240" rel="noopener noreferrer" target="_blank">
+           Fabrication of label-free electrochemical biosensor composed of multi-functional DNA/rhodium nanoplate for thyroxine detection in clinical sample
+          </a>
+         </h4>
+         <p class="pub-authors">
+          Sun Yong Park, Jinmyeong Kim,
+          <strong>
+           Gyeonghye Yim
+          </strong>
+          , Hongje Jang, Yeonju Lee, Soo Min Kim, Chulhwan Park, Min-Ho Lee* and Taek Lee*
+         </p>
+         <p class="pub-venue">
+          Colloid. Surface B 2020, 195, 111240.
+         </p>
+         <div class="pub-links">
+          <a href="https://doi.org/10.1016/j.colsurfb.2020.111240" rel="noopener noreferrer" target="_blank">
+           DOI ↗
+          </a>
+         </div>
+        </div>
+       </article>
+       <article class="publication-item">
+        <span class="pub-number">
+         20
+        </span>
+        <div>
+         <p class="pub-type">
+          JOURNAL ARTICLE · 2020
+         </p>
+         <h4>
+          <a href="https://doi.org/10.1002/adfm.201907203" rel="noopener noreferrer" target="_blank">
+           Modus operandi of simultaneous covering synthesis from precursor heterogeneity for shelled nanorods for multi-potent cancer theranostics
+          </a>
+         </h4>
+         <p class="pub-authors">
+          <strong>
+           Gyeonghye Yim
+          </strong>
+          †, Seounghun Kang†, Hyungjun Kim, Young-Jin Kim, Yeong-Gyu Gil, Young-Kwan Kim*, Dal-Hee Min* and Hongje Jang*
+         </p>
+         <p class="pub-venue">
+          Adv. Funct. Mater. 2020, 30(9), 1907203.
+         </p>
+         <div class="pub-links">
+          <a href="https://doi.org/10.1002/adfm.201907203" rel="noopener noreferrer" target="_blank">
+           DOI ↗
+          </a>
+         </div>
+        </div>
+       </article>
+       <article class="publication-item">
+        <span class="pub-number">
+         21
+        </span>
+        <div>
+         <p class="pub-type">
+          JOURNAL ARTICLE · 2019
+         </p>
+         <h4>
+          <a href="https://doi.org/10.1021/acsnano.8b09516" rel="noopener noreferrer" target="_blank">
+           Hydrothermal galvanic-replacement tethered synthesis of Ir-Ag-IrO2 nanoplates for computed tomography-guided multi-wavelength potent thermodynamic cancer therapy
+          </a>
+         </h4>
+         <p class="pub-authors">
+          <strong>
+           Gyeonghye Yim
+          </strong>
+          †, Seounghun Kang†, Young-Jin Kim, Young-Kwan Kim, Dal-Hee Min* and Hongje Jang*
+         </p>
+         <p class="pub-venue">
+          ACS Nano 2019, 13(3), 3434-3447.
+         </p>
+         <div class="pub-links">
+          <a href="https://doi.org/10.1021/acsnano.8b09516" rel="noopener noreferrer" target="_blank">
+           DOI ↗
+          </a>
+         </div>
+        </div>
+       </article>
       </div>
-    </section>
-
-    <section class="contact-banner"><div><p class="eyebrow">HAVE A QUESTION OR IDEA?</p><h2>Let’s start<br>a conversation.</h2></div><a class="round-link" href="mailto:khyim0122@kaist.ac.kr" aria-label="Email Your Name">↗</a></section>
+     </section>
+     <section aria-labelledby="tab-teaching" class="tab-panel" hidden="" id="panel-teaching" role="tabpanel" tabindex="0">
+      <div class="panel-heading">
+       <div>
+        <p class="eyebrow">
+         ACADEMIC AND RESEARCH EXPERIENCE
+        </p>
+        <h3>
+         Professional Experiences
+        </h3>
+       </div>
+       <span class="panel-count">
+        03 / 04
+       </span>
+      </div>
+      <article class="course-item">
+       <div class="course-term">
+        AUG 2025 – AUG 2026
+       </div>
+       <div>
+        <h4>
+         Served as Graduate Student Representative (Lab Coordinator)
+        </h4>
+        <p>
+         BioMedical and Brain-Machine Computer Interfaces Lab., KAIST · PI: Prof. Seongjun Park
+        </p>
+       </div>
+       <span class="course-tag">
+        LAB COORDINATOR
+       </span>
+      </article>
+      <article class="course-item">
+       <div class="course-term">
+        MAR 2023 – AUG 2025
+       </div>
+       <div>
+        <h4>
+         Managed laboratory safety
+        </h4>
+        <p>
+         BioMedical and Brain-Machine Computer Interfaces Lab., KAIST
+        </p>
+       </div>
+       <span class="course-tag">
+        LAB SAFETY MANAGER
+       </span>
+      </article>
+      <article class="course-item">
+       <div class="course-term">
+        MAR 2021 – JUN 2022
+       </div>
+       <div>
+        <h4>
+         Worked as a researcher
+        </h4>
+        <p>
+         Research Support Center, Kwangwoon University Industry-Academic Collaboration Foundation, Seoul, Republic of Korea · PI: Prof. Hongje Jang
+        </p>
+       </div>
+       <span class="course-tag">
+        RESEARCHER
+       </span>
+      </article>
+      <article class="course-item">
+       <div class="course-term">
+        MAR 2019 – FEB 2021
+       </div>
+       <div>
+        <h4>
+         Instructed undergraduate students in “Theory and Experiments of Composite Materials Chemistry”
+        </h4>
+        <p>
+         Department of Chemistry, Kwangwoon University, Seoul, Republic of Korea · Course Instructor: Prof. Hongje Jang
+        </p>
+       </div>
+       <span class="course-tag">
+        TEACHING ASSISTANT
+       </span>
+      </article>
+     </section>
+     <section aria-labelledby="tab-cv" class="tab-panel" hidden="" id="panel-cv" role="tabpanel" tabindex="0">
+      <div class="panel-heading">
+       <div>
+        <p class="eyebrow">
+         THE SHORT VERSION
+        </p>
+        <h3>
+         Curriculum vitae
+        </h3>
+       </div>
+       <span class="panel-count">
+        04 / 04
+       </span>
+      </div>
+      <p class="cv-intro">
+       My academic path so far. Download my full CV for research interests, professional experience, publications, and honors.
+      </p>
+      <div class="cv-block">
+       <p class="cv-year">
+        2022 — NOW
+       </p>
+       <div>
+        <h4>
+         Ph.D. candidate in Bio and Brain Engineering
+        </h4>
+        <p>
+         KAIST, Daejeon, Republic of Korea · Advisors: Prof. Seongjun Park and Prof. Chul Kim
+        </p>
+       </div>
+      </div>
+      <div class="cv-block">
+       <p class="cv-year">
+        2019 — 2021
+       </p>
+       <div>
+        <h4>
+         M.S. in Chemistry
+        </h4>
+        <p>
+         Kwangwoon University, Seoul, Republic of Korea · Advisor: Prof. Hongje Jang · GPA: 4.40 / 4.5 · Dissertation: “Synthesis of Core-Shell Nanorods with Heterogeneous Precursors and Their Applications in Cancer Therapy”
+        </p>
+       </div>
+      </div>
+      <div class="cv-block">
+       <p class="cv-year">
+        2015 — 2019
+       </p>
+       <div>
+        <h4>
+         B.S. in Chemistry
+        </h4>
+        <p>
+         Kwangwoon University, Seoul, Republic of Korea · Research Advisor: Prof. Hongje Jang · GPA: 3.93 / 4.5
+        </p>
+       </div>
+      </div>
+      <a class="download-button" download="" href="cv.pdf">
+       Download full CV
+       <span aria-hidden="true">
+        ↓
+       </span>
+      </a>
+     </section>
+    </div>
+   </section>
+   <section class="contact-banner">
+    <div>
+     <p class="eyebrow">
+      HAVE A QUESTION OR IDEA?
+     </p>
+     <h2>
+      Let’s start
+      <br/>
+      a conversation.
+     </h2>
+    </div>
+    <a aria-label="Email Gyeonghye Yim" class="round-link" href="mailto:khyim0122@kaist.ac.kr">
+     ↗
+    </a>
+   </section>
   </main>
-
-  <footer class="site-footer"><a class="wordmark footer-mark" href="#home">Gyeonghye Yim<span>.</span></a><p>© <span id="footer-year"></span> Gyeonghye Yim · Made with care.</p><a href="#home">Back to top ↑</a></footer>
-</body>
+  <footer class="site-footer">
+   <a class="wordmark footer-mark" href="#home">
+    Gyeonghye Yim
+    <span>
+     .
+    </span>
+   </a>
+   <p>
+    ©
+    <span id="footer-year">
+    </span>
+    Gyeonghye Yim · Made with care.
+   </p>
+   <a href="#home">
+    Back to top ↑
+   </a>
+  </footer>
+ </body>
 </html>
